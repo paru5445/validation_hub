@@ -1,0 +1,109 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Open+Sans:wght@400&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif; /* body font */
+    background-image: url('background_4.jpg');
+    background-repeat: no-repeat;
+    background-color: #130224;
+    background-size: cover;
+    height: 100vh;
+}
+
+header {
+    text-align: center;
+    color: #f0e6f1;
+    padding: 10px;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif; /* main title */
+    font-size: 5.5em; 
+    font-weight: 600; 
+    color: #eee6ea; 
+    margin: 0;
+
+    text-shadow:                        /* glow effect */ 
+        0 0 5px rgba(212, 39, 154, 0.831),
+        0 0 10px rgba(255, 173, 228, 0.5),
+        0 0 15px rgba(255, 173, 228, 0.743);
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif; /* subheading */
+    font-size: 1.2em;
+    color: #380862;  
+    margin-top: 4px; /* Space between h1 and h2 */
+}
+
+section {
+    background-color: rgba(233, 195, 224, 0.699); /* transparent white sections */
+    border-radius: 10px;
+    max-width: 900px;
+    margin-bottom: 35px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(187, 6, 166, 0.688); 
+    
+    /* Center the section */
+    margin-left: auto;  
+    margin-right: auto;
+}
+
+input {
+    font-family: 'Open Sans', sans-serif; /* input */
+    width: 95%; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 2.5px solid #8b52bd; 
+    border-radius: 5px;
+    
+    /* Transition for glow- taken reference from yt */
+    transition: border-color 0.3s ease; 
+}
+
+input:focus {
+    border-color: #b815af; 
+    outline: none; 
+    box-shadow: 0 0 5px rgba(238, 0, 255, 0.744); /* Pink glow on focus */
+}
+
+button {
+    font-family: 'Poppins', sans-serif; 
+    font-size: 1em; 
+    font-weight: 700; 
+    cursor: pointer;
+    background-color: #4c1081; 
+    color: #e9e5e5; 
+    margin-top: 20px; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+
+    /*glow effect */
+    text-shadow: 
+        0 0 5px rgba(219, 79, 172, 0.702),
+        0 0 10px rgba(255, 173, 228, 0.5),
+        0 0 15px rgba(255, 173, 228, 0.714);
+}
+
+.error {
+    font-family: 'Open Sans', sans-serif; /* Errors */
+    font-size: 14px;
+    color: #ab5f99; 
+    margin-top: 20px;
+}
+
+footer{
+    font-family: 'Open Sans', sans-serif; /* Foote r */
+    text-align: center;
+    background-color: #5b1f90;; 
+    color: #ffffff; 
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 -2px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+

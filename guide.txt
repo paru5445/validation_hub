@@ -1,0 +1,89 @@
+/* Color Pallete:
+ffade4  (pink)
+ab5f99  (mulberry)
+f4f9e9  (ivory white)
+03254e  (oxford blue)
+011c27  (rich black)
+
+css format: 
+element {
+    background-color: 
+    margin-top: 
+    margin-bottom: 
+    padding-top: 
+    padding-right: 
+    padding-bottom: 
+    padding-left: 
+    color: 
+    text-align: 
+    font-size: 
+}
+
+Goals:
+-password
+-email
+-phone number
+-url
+
+-zip code verification
+-date validation/ Expiration
+
+
+1. Website Title and Introduction
+Title: “Input Validator”
+top: 
+-language
+-faq
+
+Check your Input
+
+"Welcome to Validation Hub! Ensure the correctness of your inputs by providing validations for emails, passwords, phone numbers, and URLs. Fill in the forms below to verify your entries easily and effectively."
+
+Entries are 100% secure and not stored in any way or shared with anyone.
+
+2. Main Sections 
+
+
+Email Validation
+Title: "Email Validator"
+Description: "Enter your email address below to check if it’s valid."
+
+Password Validation
+Title: "Password Checker"
+Description: "Check the strength of your password and ensure it meets security standards."
+
+Phone Number Validation
+Title: "Phone Number Verifier"
+Description: "Enter your phone number to verify its format and validity."
+
+URL Validation
+Title: "URL Checker"
+Description: "Ensure your URL is valid and properly formatted."
+
+3. Instructions and Error Messages: Provide clarity and assistance to users.
+
+4. Footer: Include contact information.
+*/
+
+css part: 
+margin: 0; removes any default space around an element. 
+
+outside of div: margin
+inside of div: padding
+
+margin-left: auto;  automated calculate and pushed to right
+margin-right: auto; automated calculate and pushed to right
+
+Class: A reusable style applied to HTML elements via the class attribute, enabling consistent styling across multiple elements.
+Pseudo-class (like :focus): A selector that styles an element based on its state, not requiring a specific class name.
+
+.value: 
+
+js:
+ The .test() method is used with regular expressions to check if a specified string matches the pattern defined by the regular expression.
+
+ If you omit .value when accessing an input element, you will be referencing the input element object itself rather than its current value.
+
+ button: This is an element selector that applies styles specifically to <button> HTML elements. It targets any button on the page.
+
+.error: This is a class selector that applies styles to any HTML element with the class attribute set to error. For example, you might have an element like <div class="error">Error message</div>.

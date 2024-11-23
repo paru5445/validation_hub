@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation Hub</title>
+    <link rel="stylesheet" href="styles.css"> <!-- CSS Link-->
+</head>
+<body>
+
+    <header>
+        <h1>Validation Zone</h1>
+        <p style= "font-size: 20px;"><b> Welcome to Validation Zone! This website helps you ensure the correctness of your inputs by providing validations for emails, passwords, phone numbers, and URLs.</b>
+    </header>
+
+    <main>
+
+        <section id="email-validation">
+            <h2>Email Validator</h2>
+            <p>Enter your email address below to check if it’s valid.</p>
+            <input type="text" id="emailInput" placeholder="example@domain.com"> 
+            <button onclick ="validateEmail()"> Submit </button>
+            <div id="emailError" class="error"></div>
+        </section>
+
+        <section id="password-validation">
+            <h2>Password Checker</h2>
+            <p>Check the strength of your password and ensure it meets security standards.</p>
+            <input type="password" id="passwordInput" placeholder="Enter your password">
+            <button onclick="validatePassword()">Submit</button>
+            <div id="passwordCriteria" class="error"></div>
+            
+        </section>
+
+        <section id="phone-validation">
+            <h2>Phone Number Verifier</h2>
+            <p>Enter your phone number to verify its format and validity.</p>
+            <input type="text" id="phoneInput" placeholder="+977-*******">
+            <button onclick="validatePhone()">Submit</button>
+            <div id="phoneError" class="error">
+        </section>
+
+        <section id="url-validation">
+            <h2>URL Checker</h2>
+            <p>Ensure your URL is valid and properly formatted.</p>
+            <input type="text" id="urlInput" placeholder="https://www.example.com">
+            <button onclick="validateURL()">Submit</button>
+            <div id="urlError" class="error">
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2024 Validation Zone. For inquiries, please contact support at @validationhub.com.</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- JavaScript Link-->
+</body>
+</html>
